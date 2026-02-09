@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #0f172a;
+  font-family: Arial, sans-serif;
+}
+
+.stopwatch-container {
+  text-align: center;
+  color: white;
+}
+
+.circle {
+  width: 220px;
+  height: 110px;
+  border-radius: 220px 220px 0 0;
+  background: linear-gradient(135deg, #22c55e, #3b82f6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.time {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.buttons button:first-child {
+  background-color: #22c55e;
+  color: white;
+}
+
+.buttons button:last-child {
+  background-color: #ef4444;
+  color: white;
+}
